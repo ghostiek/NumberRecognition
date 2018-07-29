@@ -1,4 +1,4 @@
-# NumberRecognition
+# Number Recognition
 
 A Machine Learning Algorithm I worked on using keras' MNIST dataset. For sanity's sake I also drew some numbers on Paint.NET by resizing it to 28x28 pixels as my own testing data.
 
