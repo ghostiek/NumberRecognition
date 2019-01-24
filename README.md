@@ -4,7 +4,8 @@ A Machine Learning Algorithm I worked on using keras' MNIST dataset. My testing 
 
 ## How to view the files
 
-For some reason GitHub seems to be having a [problem](https://github.com/jupyter/notebook/issues/3035) on their backend sometimes. I just find that restarting it at a later time works. If the issue doesn't fix itself you can always use [Jupyter's nbviewer](https://nbviewer.jupyter.org/) to render and view the files. You can also just click the links in the ReadMe to view the \*.ipynb files
+For some reason GitHub seems to be having a [problem](https://github.com/jupyter/notebook/issues/3035) on their backend sometimes. I just find that restarting it at a later time works. If the issue doesn't fix itself you can always use [Jupyter's nbviewer](https://nbviewer.jupyter.org/) to render and view the files. You can also just click the links in the table below to view the \*.ipynb files.
+
 ## Models
 
 | Model Name     | Description | Testing Accuracy Rate % |
