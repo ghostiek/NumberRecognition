@@ -1,6 +1,6 @@
 # Number Recognition
 
-A Machine Learning Algorithm I worked on using keras' MNIST dataset. My testing data is of 10,000 images but for sanity's sake I also drew some numbers on [Paint.NET](https://www.getpaint.net/) by resizing it to 28x28 pixels as my own testing data.
+Machine Learning Algorithms I worked on using keras' MNIST dataset. My testing data is of 10,000 images but for sanity's sake I also drew some numbers on [Paint.NET](https://www.getpaint.net/) by resizing it to 28x28 pixels as my own testing data.
 
 ## How to view the \*.ipynb files
 
