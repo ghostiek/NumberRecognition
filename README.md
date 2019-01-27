@@ -11,8 +11,8 @@ For some reason GitHub seems to be having a [problem](https://github.com/jupyter
 | Model Name     | Description | Testing Accuracy Rate % |
 |---|---|---|
 |[FCModel](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/FCModel.ipynb)| Fully Connected Neural Network | ~96
-|[SimpleConvModel](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/SimpleConvModel.ipynb)       | Straightforward Convolutional Model| ~98
-|[ConvModel_v1](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/ConvModel_v1.ipynb) | Convolutional Model | ~99
+|[SimpleConvModel](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/SimpleConvModel.ipynb)       | Straightforward Convolutional Model| ~98.5
+|[ConvModel_v1](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/ConvModel_v1.ipynb) | Convolutional Model | ~99.3
 
 
 ## Models Architecture
