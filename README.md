@@ -12,6 +12,8 @@ For some reason GitHub seems to be having a [problem](https://github.com/jupyter
 |---|---|---|
 |[FCModel](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/FCModel.ipynb)| A Fully Connected Neural Network | ~96
 |[SimpleConvModel](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/SimpleConvModel.ipynb)       | A pretty straightforward Convolutional Model| ~98
+|[ConvModel_v1](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/ConvModel_v1.ipynb) | Convolutional Model | ~99
+
 
 ## Models Architecture
 
@@ -23,6 +25,11 @@ INPUT (1x784) -> [FC -> RELU]\*2 -> [FC -> SOFTMAX]
 
 INPUT (28x28x1) -> [CONV2D -> RELU]\*2 -> MAXPOOL2D -> [FC -> SOFTMAX]
 
+#### ConvModel_v1:
+
+INPUT (28x28x1) -> [[CONV2D -> RELU]\*2 -> MAXPOOL2D -> BATCHNORMALIZATION]\*2 -> [FC -> RELU] 
+
+-> [FC -> SOFTMAX]
 
 ## Dependencies
 
