@@ -13,6 +13,7 @@ For some reason GitHub seems to be having a [problem](https://github.com/jupyter
 |[FCModel](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/FCModel.ipynb)| Fully Connected Neural Network | ~96
 |[SimpleConvModel](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/SimpleConvModel.ipynb)       | Straightforward Convolutional Model| ~98.5
 |[ConvModel_v1](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/ConvModel_v1.ipynb) | Convolutional Model | ~99.3
+|[ConvModel_v2](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/ConvModel_v2.ipynb) | Changed placement of BN<br> and added a dynamic learning rate | ~99.6
 
 
 ## Models Architecture
@@ -30,6 +31,18 @@ INPUT (28x28x1) -> [CONV2D -> RELU]\*2 -> MAXPOOL2D -> [FC -> SOFTMAX]
 INPUT (28x28x1) -> [[CONV2D -> RELU]\*2 -> MAXPOOL2D -> BATCHNORMALIZATION]\*2 -> [FC -> RELU] 
 
 -> [FC -> SOFTMAX]
+
+#### ConvModel_v2:
+
+INPUT (28x28x1) -> [[CONV2D -> RELU] -> BATCHNORMALIZATION]\*2 -> MAXPOOL2D -> DROPOUT]\*2 -> [FC -> RELU] 
+
+-> [FC -> SOFTMAX]
+
+
+### Positioning of BatchNormalization in the CNN Architecture
+
+Although the authors of the [original research paper on BatchNormalization](https://arxiv.org/pdf/1502.03167.pdf) have indicated that it should be included between linear and non-linear layers it has been found [in practice to yield better results](https://github.com/ducha-aiki/caffenet-benchmark/blob/master/batchnorm.md) when adding it after the activation layer.
+
 
 ## Dependencies
 
