@@ -8,12 +8,12 @@ For some reason GitHub seems to be having a [problem](https://github.com/jupyter
 
 ## Models
 
-| Model Name     | Description | Testing Accuracy Rate % |
-|---|---|---|
-|[FCModel](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/FCModel.ipynb)| Fully Connected Neural Network | ~96
-|[SimpleConvModel](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/SimpleConvModel.ipynb)       | Straightforward Convolutional Model| ~98.5
-|[ConvModel_v1](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/ConvModel_v1.ipynb) | Convolutional Model | ~99.3
-|[ConvModel_v2](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/ConvModel_v2.ipynb) | Changed placement of BN<br> and added a dynamic learning rate | ~99.6
+| Model Name     | Description | Testing Accuracy Rate % | Kaggle Public Leaderboard % |
+|---|---|---|---|
+|[FCModel](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/FCModel.ipynb)| Fully Connected Neural Network | ~96 | ~97 |
+|[SimpleConvModel](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/SimpleConvModel.ipynb)       | Straightforward Convolutional Model| ~98.5 | N/A |
+|[ConvModel_v1](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/ConvModel_v1.ipynb) | Convolutional Model | ~99.3 | ~99.9 |
+|[ConvModel_v2](https://nbviewer.jupyter.org/github/ghostiek/NumberRecognition/blob/master/Models/Notebooks/ConvModel_v2.ipynb) | Changed placement of BN<br> and added a dynamic learning rate | ~99.6 | ~99.94 |
 
 
 ## Models Architecture
