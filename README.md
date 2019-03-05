@@ -1,6 +1,6 @@
 # Number Recognition
 
-Machine Learning Algorithms I worked on using keras' MNIST dataset. My testing data is of 10,000 images but for sanity's sake I also drew some numbers on [Paint.NET](https://www.getpaint.net/) by resizing it to 28x28 pixels as my own testing data.
+Machine Learning Algorithms I worked on using keras' MNIST dataset. My testing data is of 10,000 images but for sanity's sake I also drew some numbers on [Paint.NET](https://www.getpaint.net/) by resizing it to 28x28 pixels as my own testing data. The best solution, using CNN, ranked 58th out of 2,468 teams (Top 2.35%) on [Kaggle's Digit Recognizer Competition](https://www.kaggle.com/c/digit-recognizer)
 
 ## How to view the \*.ipynb files
 
